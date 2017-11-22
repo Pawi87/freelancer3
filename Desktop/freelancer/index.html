@@ -1,76 +1,225 @@
 <!-- Agrega aquí la estructura HTML de tu sitio web -->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<title>Freelancer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,600,700,800,900" rel="stylesheet">
 
-    <title>FREELANCER</title>
+	
+	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
+
 </head>
-
 <body>
-    <nav>
-        <section class="container">
-            <div class="begin">
-                <h1>STAR BOOTSTRAP</h1>
-               
+    <header class="container">
+       <nav class="row">
+          <div class="col-1"></div>
+          <div class="col-3 title-   nav">STAR BOOTSTRAP</div>
+          <div class="col-4"></div>
+          <div class="col-1 title-nav2">
+            <ol>
+          <li>PORTFOLIO</li>
+          <div class="col-1 title-nav2">
+          <li>ABOUT</li>
+          <div class="col-1 title-nav2">
+          <li>CONTACT</li>
+          <div class="col-1"></div>
+          </ol> 
+       </nav>
+    </header>
+    <div class="col-12" style="height: 93px">
+    </div>
+<!--Section 1 IMG & title star bootstrap-->
+<section class="container turq">
+   <div class="row">
+       <div class="col-12 aligncenter portfolio">
+        <img src="assets/images/profile.png" alt="" > 
+       </div>
+    <div class="row">
+        <div class="col-12  title-port">
+        <p class="aligncenter">START BOOTSTRAP</p>
+        </div>
+    </div>
+   </div>
+   <div class="row">
+       <div class="col-4"></div>
+       <div id="lineStar" class="col-4 aligncenter">
+           <div class= "line"></div>
+           <i class="fa fa-star star fa-2x" aria-hidden="true"></i>
+           <div class="line"></div>
+           
+       </div>
+       <div class="col-4"></div>
+   </div>
+   <div class="row">
+       <div class="col-12 aligncenter">
+           <p class="parr-port">Web Developer - Graphic Artist - User Experience Designer</p>
+       </div>
+   </div>    
+</section>
+<!--PORTFOLIO-->
+<section class="container">
+   <div class="row">
+      <div class="col-12 aligncenter">
+        <p class="title-portfolio">PORTFOLIO</p>  
+      </div> 
+   </div>
+    <div class="row">
+       <div class="col-4"></div>
+       <div id="lineStarblue" class="col-4 aligncenter">
+           <div class= "lineblue"></div>
+           <i class="fa fa-star starblue fa-2x" aria-hidden="true"></i>
+           <div class="lineblue"></div>   
+       </div>
+       <div class="col-4"></div>
+   </div>
+   <!--IMG-->
+    <div class="row">
+        <img src="assets/images/portfolio/cabin.png" alt="" class="col-4">
+        <img src="assets/images/portfolio/cake.png" alt="" class="col-4"><img src="assets/images/portfolio/circus.png" alt="" class="col-4">
+    </div>
+    <div class="row" id="section2">
+        <img src="assets/images/portfolio/game.png" alt="" class="col-4">
+        <img src="assets/images/portfolio/safe.png" alt="" class="col-4">
+        <img src="assets/images/portfolio/submarine.png" alt="" class="col-4">
+    </div>
+</section>
+<!--ABOUT-->
+<section class="container turq">
+    <div class="row">
+        <div class="col-12 aligncenter">
+            <p class="title-about">ABOUT</p>
+        </div>
+    </div>
+       <div class="row">
+       <div class="col-4"></div>
+       <div id="lineStar" class="col-4 aligncenter">
+           <div class= "line"></div>
+           <i class="fa fa-star star fa-2x" aria-hidden="true"></i>
+           <div class="line"></div>
+       </div>
+       <div class="col-4"></div>
+   </div>
+<!--TEXTO-->
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4">
+            <p class="parr-about">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+        </div>
+        <div class="col-4">
+            <p class="parr-about">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <!--BTN-->
+    <div class="row">
+       <div class="col-12"></div>
+       <div class="col-12 aligncenter">
+            <buttom class="btnabout">
+                <i class="fa fa-download fa-1g" aria-hidden="true"></i>
+                <span class="parr-btn">Download Theme</span>
+            </buttom>
+        </div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+    </div>
+</section>
+<!--CONTACT ME-->
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+            <p class="title-portfolio aligncenter">CONTACT ME</p>
+        </div>
+    </div>
+    <div class="row">
+       <div class="col-4"></div>
+       <div id="lineStarblue" class="col-4 aligncenter">
+           <div class= "lineblue"></div>
+           <i class="fa fa-star starblue fa-2x" aria-hidden="true"></i>
+           <div class="lineblue"></div>
+       </div>
+       <div class="col-4"></div>
+    </div>
+    <form>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 border-line">
+                <input type="text" placeholder="Name" class="input-form" id="inputName">
             </div>
-            <div <class="menu">
-                <ol>
-                    <a>PORTFOLIO</a>
-                    <a>ABOUT</a>
-                    <a>CONTACT</a>
-                </ol>
+            <div class="col-3"></div>  
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 border-line">
+                <input type="text" placeholder="Email Address" class="input-form" id="inputMail">
             </div>
-        </section>
-    </nav>
+            <div class="col-3"></div>  
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 border-line">
+                <input type="text" placeholder="Phone Number" class="input-form" id="inputPhone">
+            </div>
+            <div class="col-3"></div>  
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 border-line">
+                <input type="text" placeholder="Message" class="input-form" id="inputMsg">
+            </div>
+            <div class="col-3"></div>  
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 border-line">
+                <input type="submit" value="Send" class="btn-form">
+            </div>
+        </div>
+    </form>
+</section>
+<!--FOOTER-->
+<section class="container">
+    <div class="row footer">
+        <div class="col-4">
+            <p class="title-footer aligncenter">LOCATION</p>
+            <p class="parr-footer aligncenter">3481 Melrose Place </p>
+            <p class="parr-footer aligncenter">Beverly Hills, CA 90210</p>
+        </div>
+        <div class="col-4">
+            <p class="title-footer aligncenter">AROUND THE WEB</p>
+            <div class="col-12 logos aligncenter">
+                <i class="fa fa-facebook fa-3x icon-footer" aria-hidden="true"></i>
+            <i class="fa fa-dribbble fa-3x"></i>
+            <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <img src="assets/images/profile.png" alt="imagen-hero">
-                <h2>STAR BOOTSTRAP </h2>
-                <img src="assets/images/star/barra_bco.png" alt="white">
+            <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
 
-                <p>Web developer- Graphic Artist-User Experience Designer</p>
-                <div/>
-                <section class="portfolio">
-                    <div class="container">
-                        <h2>PORTFOLIO</h2>
-                        <div class="portfolio-images">
-                            <img src="assets/images/portfolio/cabin.png" alt="cabin">
-                            <img src="assets/images/portfolio/cake.png" alt="cake">
-                            <img src="assets/images/portfolio/circus.png" alt="circus">
-                            <img src="assets/images/portfolio/game.png" alt="game">
-                            <img src="assets/images/portfolio/safe.png" alt="safe">
-                            <img src="assets/images/portfolio/submarine.png" alt="submarine">
-                        </div>
-                    </div>
-                </section>
-
-                <div class="box">
-                    <h2>ABOUT</h2>
-                    
-                </div>
-<div class= "description">
-Freelancer is a free bootstrap theme
-created by Star Bootstrap. The 
-download includes the complete source
-files including HTML, CSS, and 
-JavaScript as well as optional LESS
-stylesheets fot easy customization.
-
-Whether you´re student looking to
- showcase your work, a professional 
- looking to attract clients, or a graphic 
- artist looking to share your projects, this
- template is the perdect starting point!
- 
- 
-
+            <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="col-4 aligncenter">
+            <p class="title-footer aligncenter">
+                ABOUT FREELANCER
+            </p>
+            <p class="parr-footer aligncenter">
+                Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="footie"> Start Bootstrap.</a>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="container footer2">
+    <div class="row">
+        <div class="col-12">
+            <p class="parr- aligncenter">
+                Copyright © Your Website 2017
+            </p>
+        </div>
+    </div>
+</section>
 
 </body>
-
 </html>

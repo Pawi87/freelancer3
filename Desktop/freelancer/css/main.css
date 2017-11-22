@@ -1,13 +1,10 @@
-/*
- * Estilos de tu proyecto
- */
-body {
-  padding: 0px;
-  margin: 0px;
-  background: #18BC9C;
-}
 
-nav {
+
+
+
+
+    
+    nav {
   background: #2c3e50;
   width: 100%;
   height: 60px;
@@ -17,24 +14,91 @@ nav {
   font-weight: 700;
 }
 
+
+body {    
+    
+  /* Establece la fuente de Google aquí */
+  margin: 0px;
+  font-size: 16px;
+  background-color: #18BC9C;
+  font-family: 'Raleway', sans-serif;
+    }
+
 main {
   padding-top: 85px;
-
-}
-
-p{
-  padding-left: 20px;
-    margin-left: 20px;
-    background: #18BC9C
-        
-}
-
-h2{
-    color: white;
-}
-
-img{
-    width: 0px;
-    height: 0px;
     
 }
+
+button {
+  background: #18bc9c;
+  border: #18bc9c;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  width: 100px;
+  height: 45px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+    .container {
+  width: 80%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+ #portfolio, #contact {
+  background: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #2c3e50;
+  line-height: 4px;
+}
+
+#portfolio h2, #about h2, #contact h2{
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.portfolio-images > img {
+  display: inline-block;
+  width: 330px;
+  height: auto;
+  margin: 13px;
+}
+
+#about {
+  background: #18bc9c;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  line-height: 4px;
+}
+
+
+.description {
+  columns: 2;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0 180px;
+  text-align: left;
+}
+
+
+footer {
+  background: #2c3e50;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  color: white;
+}
+    
